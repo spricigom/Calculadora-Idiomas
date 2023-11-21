@@ -38,3 +38,5 @@ function dividir(a, b) {
     let divide = a / b;
     resultado.innerHTML = divide;
 }
+//Puxando calculadora
+let title = document.querySelector("#title");
