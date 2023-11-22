@@ -40,5 +40,5 @@ function setLanguage(novoIdioma){
     let btDivisao = document.querySelector("#btDivisao"); 
     btDivisao.value = novoIdioma.divisao;
     let title = document.querySelector("#title");
-    title.value = novoIdioma.titulo;
+    title.textContent = novoIdioma.titulo;
 }
